@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cicdlabEnd/',   // 👈 add this line
+  base: '/cicdlabEnd/',   // 👈 EXACT: same repo name, with / at start & end
 })
